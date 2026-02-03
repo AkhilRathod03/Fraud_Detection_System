@@ -1,0 +1,17 @@
+# Data files
+Fraud.csv.zip
+fraud_transactions.csv
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environments
+venv/
+env/
+
+# IDE / Editor specific
+.vscode/
+.idea/
