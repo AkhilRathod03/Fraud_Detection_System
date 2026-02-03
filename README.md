@@ -28,8 +28,8 @@ You will need Python 3 installed. You can install the necessary Python libraries
 ```bash
 pip install -r requirements.txt
 ```
-**Kaggle Dataset**
-**Link : " kaggle kernels output mahmoudredagamail/fraud-detection-dataset -p /path/to/dest " **
+### Kaggle Dataset
+Link : " kaggle kernels output mahmoudredagamail/fraud-detection-dataset -p /path/to/dest "
 
 ### File Structure
 
