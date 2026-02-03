@@ -29,7 +29,7 @@ You will need Python 3 installed. You can install the necessary Python libraries
 pip install -r requirements.txt
 ```
 ### Kaggle Dataset
-Link : " kaggle kernels output mahmoudredagamail/fraud-detection-dataset -p /path/to/dest "
+Link : " (https://www.kaggle.com/code/mahmoudredagamail/fraud-detection-dataset/input?select=data2.csv) "
 
 ### File Structure
 
