@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import os
 
-input_csv_path = r"C:\Users\VASANTH RAO\Downloads\PROJECT NEW\fraud_transactions_engineered.csv"
-output_eda_dir = r"C:\Users\VASANTH RAO\Downloads\PROJECT NEW\EDA_plots"
+input_csv_path = "fraud_transactions_engineered.csv"
+output_eda_dir = "EDA_plots"
 
 # Create directory for plots if it doesn't exist
 os.makedirs(output_eda_dir, exist_ok=True)

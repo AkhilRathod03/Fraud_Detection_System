@@ -1,0 +1,13 @@
+The **Fraud Detection System** is a machine learning project designed to identify fraudulent financial transactions. It employs a comprehensive data science workflow, starting with loading, cleaning, and processing raw transaction data. 
+
+A crucial step involves **feature engineering**, where new informative features like balance changes are created to enhance the model's ability to detect fraud. 
+
+Exploratory Data Analysis (EDA) was performed to understand data patterns, with visualizations stored in the `EDA_plots` directory. The core of the system is an **XGBoost classifier** trained on these engineered features. 
+
+The model's performance was rigorously evaluated, focusing on the trade-off between precision (correctly identifying fraudulent transactions) and recall (identifying all actual fraudulent transactions). 
+
+To prioritize minimizing false alarms while still catching a significant portion of fraud, a **decision threshold of 0.7** was chosen. At this threshold, the model achieves a **precision of 80%** (meaning 80% of transactions flagged as fraudulent are indeed so) and a **recall of 61%** (meaning 61% of all actual fraudulent transactions are successful identified).                                                                                                                                                          
+
+The project structure includes modular Python scripts for each stage: `data_cleaning.py`, `feature_engineering.py`, `eda.py`, `model_training.py`, and `predict_fraud.py`. The trained model is saved as `final_fraud_detection_model.joblib`, and `requirements.txt` lists all necessary Python libraries. 
+
+This system provides a robust and interpretable solution for financial institutions to combat fraud. 
