@@ -1,6 +1,6 @@
 # Fraud Detection System
 
-This project is a machine learning-based fraud detection system designed to identify potentially fraudulent financial transactions. The system uses an XGBoost model trained on a large dataset of transactions to classify them as either legitimate or fraudulent.
+This project is a machine learning-based fraud detection system designed to identify potentially fraudulent financial transactions. The system uses an XGBoost model trained on a large dataset of transactions to classify them as either legitimate or fraudulent
 
 ## Project Overview
 
