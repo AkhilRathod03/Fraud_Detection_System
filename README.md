@@ -56,5 +56,5 @@ pip install -r requirements.txt
     ```bash
     python predict_fraud.py
     ```
-    You can modify this script to use your own new data.
+    You can modify this script to use your own new data
 
